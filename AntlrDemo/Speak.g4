@@ -23,5 +23,5 @@ fragment UPPERCASE: [A-Z];
 SAYS: S A Y S;
 WORD: (LOWERCASE | UPPERCASE)+;
 TEXT: '"' .*? '"';
-WHITESPACE: (' ' | 't')+ -> skip;
-NEWLINE: ('r'? 'n' | 'r')+;
+WHITESPACE: (' ' | '\t')+ -> skip;
+NEWLINE: ('\r'? '\n' | '\r')+;
