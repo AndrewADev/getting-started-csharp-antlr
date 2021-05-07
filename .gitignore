@@ -394,3 +394,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# The Lischke ANTLR4 VS Code extension generates these, but 
+# only using for syntax highlighting for now, and actual
+# code gen in VS itself
+.antlr/
